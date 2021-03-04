@@ -137,14 +137,14 @@ for fold in range(4,5):
 
 
     # # int(nci_gen.size_train/nci_gen.batchsize)
-    # history = model.fit_generator(
-    #                     nci_gen.generate(), steps_per_epoch=int(nci_gen.size_train/nci_gen.batchsize),
-    #                     epochs=EPOCHS,verbose=1,
-    #                     # class_weight=[weights,weights],
-    #                     validation_data=nci_val_gen.generate(),
-    #                     validation_steps=int(nci_val_gen.size_train/nci_val_gen.batchsize),
-    #                     callbacks=[checkpointer, earlyStopping]
-    #                     )
+     history = model.fit_generator(
+                         nci_gen.generate(), steps_per_epoch=int(nci_gen.size_train/nci_gen.batchsize),
+                         epochs=EPOCHS,verbose=1,
+                         # class_weight=[weights,weights],
+                         validation_data=nci_val_gen.generate(),
+                         validation_steps=int(nci_val_gen.size_train/nci_val_gen.batchsize),
+                         callbacks=[checkpointer, earlyStopping]
+                         )
     
 
     # model_test = load_model('gaussian_fold_0_block_05peso_53.h5',compile=None)
