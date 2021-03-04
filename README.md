@@ -1,1 +1,1 @@
-# embedded_regularization
+# Embedded Regularization for classification of colposcopic images
