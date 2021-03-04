@@ -1,1 +1,1 @@
-# embedded_regularization_cnn
+# embedded_regularization
