@@ -1,6 +1,5 @@
 """
-Train Generator for CLARE Project
-Authors: Tiago Gonçalves, Tomé Albuquerque
+Train Generator
 
 """
 
