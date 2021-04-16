@@ -121,7 +121,7 @@ for fold in range(4,5):
     x = tf.keras.layers.Dense(2, name='labels', activation='sigmoid')(x)
     act = vgg.get_layer('block3_pool').output
     model = tf.keras.models.Model([vgg.input, clinical_input], [x, act])
-    model.load_weights('gaussian_fold_4_block_05peso_17.h5')
+    #model.load_weights('gaussian_fold_4_block_05peso_17.h5')
     model.compile(Adam(lr=LR),[loss1,loss2], ['accuracy'] )
     model.summary()
     # tf.keras.utils.plot_model(model, 'model.png', True, False)
