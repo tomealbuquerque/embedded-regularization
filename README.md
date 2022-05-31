@@ -12,6 +12,10 @@ Cervical cancer ranks as the fourth most common cancer among females worldwide w
 ## Results
 <img src="https://github.com/tomealbuquerque/embedded-regularization/blob/main/figures/tab1.PNG" width="500">
 
+## Data
+
+The American National Cancer Institute (NCI) from National Institutes of Health (NIH) collected a dataset in several regions of north and south of America. This dataset is composed by 76669 digital images (cervigrams) from 12,686 women. A subset of this dataset containing 76669 cervigrams is available for scientific works. **This dataset requires a request to the NCI to get acess.** 
+
 ## Citation
 If you find this work useful for your research, please cite our paper:
 ```
